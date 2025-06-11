@@ -1,0 +1,45 @@
+.foco-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000; 
+}
+
+.foco-icono {
+  font-size: 12rem; 
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.foco-encendido {
+  color: yellow;
+  filter: drop-shadow(0 0 12px yellow);
+}
+
+.foco-apagado {
+  color: gray;
+}
+
+.estado-texto {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.foco-toggle-boton {
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3b82f6; 
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.foco-toggle-boton:hover {
+  background-color: #2563eb; 
+}
