@@ -6,11 +6,10 @@ html, body {
 }
 
 .center {
-  position: absolute;
-  transform: translate(-50%, -50%);
+  position: relative;
+  
   left: 30%;
-
-
+  
 }
 
 .card {
@@ -23,6 +22,7 @@ html, body {
   overflow: hidden;
   position: relative;
   left: 20%;
+  
   
   margin: 1.5rem;
 }
@@ -53,7 +53,7 @@ html, body {
 }
 
 .card .additional .user-card {
-  width: 150px;
+  width: 130px;
   height: 100%;
   position: relative;
   float: left;
@@ -71,7 +71,7 @@ html, body {
 
 .card .additional .user-card .level,
 .card .additional .user-card .points {
-  margin-left: 20px;
+  margin-left: 0px;
   margin-bottom: -45px;
   margin-top: 20px;
   color: #fff;
